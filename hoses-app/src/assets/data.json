@@ -1,0 +1,157 @@
+{
+  "data": {
+    "hoses": [
+      {
+        "id": 1,
+        "name": "PVC hadica",
+        "type": "PVC",
+        "lengths": [
+          {
+            "length": "10m",
+            "pressure_rating": "10 bar",
+            "temperature_range": "0°C to 60°C",
+            "color": "transparent",
+            "applications": ["záhradné zavlažovanie", "domáce použitie"],
+            "features": [
+              "odolná voči chemikáliám",
+              "flexibilná",
+              "ľahko sa čistí"
+            ]
+          },
+          {
+            "length": "20m",
+            "pressure_rating": "9 bar",
+            "temperature_range": "0°C to 60°C",
+            "color": "transparent",
+            "applications": ["záhradné zavlažovanie", "domáce použitie"],
+            "features": [
+              "odolná voči chemikáliám",
+              "flexibilná",
+              "ľahko sa čistí"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Gumená hadica",
+        "type": "Guma",
+        "lengths": [
+          {
+            "length": "15m",
+            "pressure_rating": "15 bar",
+            "temperature_range": "-10°C to 80°C",
+            "color": "čierna",
+            "applications": ["priemysel", "stavebníctvo"],
+            "features": [
+              "vysoká odolnosť proti opotrebeniu",
+              "odolná voči UV žiareniu"
+            ]
+          },
+          {
+            "length": "30m",
+            "pressure_rating": "14 bar",
+            "temperature_range": "-10°C to 80°C",
+            "color": "čierna",
+            "applications": ["priemysel", "stavebníctvo"],
+            "features": [
+              "vysoká odolnosť proti opotrebeniu",
+              "odolná voči UV žiareniu"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Silónová hadica",
+        "type": "Silón",
+        "lengths": [
+          {
+            "length": "5m",
+            "pressure_rating": "8 bar",
+            "temperature_range": "-20°C to 50°C",
+            "color": "modrá",
+            "applications": ["potravinárstvo", "zdravotníctvo"],
+            "features": [
+              "neobsahuje BPA",
+              "schválená pre kontakt s potravinami"
+            ]
+          },
+          {
+            "length": "10m",
+            "pressure_rating": "7 bar",
+            "temperature_range": "-20°C to 50°C",
+            "color": "modrá",
+            "applications": ["potravinárstvo", "zdravotníctvo"],
+            "features": [
+              "neobsahuje BPA",
+              "schválená pre kontakt s potravinami"
+            ]
+          }
+        ]
+      }
+    ],
+    "ends": [
+      {
+        "id": 1,
+        "end_type": "G1/2",
+        "end_parameters": {
+          "material": "mosadz",
+          "thread_type": "vonkajší",
+          "size": "1/2 inch",
+          "features": ["korózii odolný", "rýchlospojka"]
+        }
+      },
+      {
+        "id": 2,
+        "end_type": "G1/2",
+        "end_parameters": {
+          "material": "mosadz",
+          "thread_type": "vnútri",
+          "size": "1/2 inch",
+          "features": ["korózii odolný", "rýchlospojka"]
+        }
+      },
+      {
+        "id": 3,
+        "end_type": "G1",
+        "end_parameters": {
+          "material": "hliník",
+          "thread_type": "vonkajší",
+          "size": "1 inch",
+          "features": ["vysoká odolnosť proti UV žiareniu", "rýchlospojka"]
+        }
+      },
+      {
+        "id": 4,
+        "end_type": "G1",
+        "end_parameters": {
+          "material": "hliník",
+          "thread_type": "vnútri",
+          "size": "1 inch",
+          "features": ["vysoká odolnosť proti UV žiareniu", "rýchlospojka"]
+        }
+      },
+      {
+        "id": 5,
+        "end_type": "G3/4",
+        "end_parameters": {
+          "material": "plast",
+          "thread_type": "vonkajší",
+          "size": "3/4 inch",
+          "features": ["neobsahuje BPA", "schválená pre kontakt s potravinami"]
+        }
+      },
+      {
+        "id": 6,
+        "end_type": "G3/4",
+        "end_parameters": {
+          "material": "plast",
+          "thread_type": "vnútri",
+          "size": "3/4 inch",
+          "features": ["neobsahuje BPA", "schválená pre kontakt s potravinami"]
+        }
+      }
+    ]
+  }
+}
